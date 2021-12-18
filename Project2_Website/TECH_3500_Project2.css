@@ -1,0 +1,434 @@
+body {
+    background-color: #eee
+}
+
+.header-main {
+    position: relative;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    background-color: #007bff
+}
+
+.logo {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600
+}
+
+.brand-wrap {
+    text-decoration: none !important
+}
+
+.icon-sm {
+    width: 48px;
+    height: 48px;
+    line-height: 48px !important;
+    font-size: 20px
+}
+
+.widget-header {
+    display: inline-block;
+    vertical-align: middle;
+    position: relative
+}
+
+.widget-header .notify {
+    position: absolute;
+    top: -3px;
+    right: -10px
+}
+
+.notify {
+    position: absolute;
+    top: -4px;
+    right: -10px;
+    display: inline-block;
+    padding: .25em .6em;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    border-radius: 3rem;
+    color: #fff;
+    background-color: #fa3434
+}
+
+.mr-3,
+.mx-3 {
+    margin-right: 1rem !important
+}
+
+.search-form {
+    border: 1px solid #ffffff !important
+}
+
+.search-button {
+    color: #007bff;
+    background-color: #ffffff;
+    border-color: #ffffff
+}
+
+.navbar-main {
+    background-color: #fff
+}
+
+.navbar-toggler {
+    color: rgba(0, 0, 0, 0.5);
+    color: rgba(0, 0, 0, 0.5);
+    border-color: rgba(0, 0, 0, 0.1) !important
+}
+
+.navbar-toggler {
+    padding: 4px;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.37rem
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: .5rem 7px 0px;
+    font-size: 1rem;
+    color: #212529;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: .25rem
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .45rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0
+}
+
+.navbar-toggler-icon {
+    background-image: url(https://img.icons8.com/ios/50/000000/menu.png)
+}
+
+.nav-link {
+    text-transform: uppercase;
+    font-weight: 400
+}
+
+.vl {
+    border-left: 1px solid #fff;
+    height: 100%
+}
+
+.fas {
+    color: #fff
+}
+
+.login {
+    color: white
+}
+
+
+/* This is the css code for the products listings */
+
+* {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.listing-section, .cart-section {
+  width: 100%;
+  float: left;
+  padding: 1%;
+  border-bottom: 0.01em solid #dddbdb;
+}
+
+.product {
+  float: left;
+  width: 23%;
+  border-radius: 2%;
+  margin: 1%;
+}
+
+.product:hover {
+  box-shadow: 1.5px 1.5px 2.5px 3px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 1.5px 1.5px 2.5px 3px rgba(0, 0, 0, 0.4);  
+  -moz-box-shadow:    1.5px 1.5px 2.5px 3px rgba(0, 0, 0, 0.4);
+}
+
+.image-box {
+  width: 100%;
+  overflow: hidden;
+  border-radius: 2% 2% 0 0;
+}
+
+.images {
+  height: 15em;
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: no-repeat;
+  border-radius: 2% 2% 0 0;
+  transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -webkit-transition: all 1s ease;
+  -o-transition: all 1s ease;
+}
+
+.images:hover {
+  transform: scale(1.2);
+  overflow: hidden;
+  border-radius: 2%;
+}
+
+/* IMAGES */
+#image-1 {background-image: url("https://p1-ofp.static.pub/medias/bWFzdGVyfHJvb3R8MTAzOTA1fGltYWdlL2pwZWd8aDU5L2hjNC8xMTAzMzMwODU2MTQzOC5qcGd8Y2MzMDg5ZjNjNGFkZWM2YzVkZTFlZmNmZGM3MDU4NzY0MDc5YWZjNjAyNjQzYmQzNWMyYTY4MTg5ZDE3ZjQ4YQ/lenovo-desktop-ideacentre-creator-5i-subseries-gallery-1.jpg");}
+
+#image-2 {background-image: url("https://www.hp.com/us-en/shop/app/assets/images/product/20W66AA%23ABA/center_facing.png?_=1627641980973&imwidth=430&imdensity=1")}
+
+#image-3 {background-image: url("https://pisces.bbystatic.com/image2/BestBuy_US/Gallery/sml_desktops-under-500-mmt-388990-0322-der-211981.jpg;maxHeight=350;maxWidth=1000")}
+
+#image-4 {background-image: url("https://i5.walmartimages.com/asr/e92c5bd5-6895-4944-b060-32efcaa5787b_1.724ef9167537ff697e629d301cb83ee9.jpeg")}
+
+#image-5 {background-image: url("https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4LqQX?ver=1f00&q=90&m=6&h=705&w=1253&b=%23FFFFFFFF&f=jpg&o=f&p=140&aim=true")}
+
+#image-6 {background-image: url("https://cdn.mos.cms.futurecdn.net/8EtRFzt9pcygR4FB6wCuHT-1200-80.jpg")}
+
+
+.text-box {
+  width: 100%;
+  float: left;
+  border: 0.01em solid #dddbdb;
+  border-radius: 0 0 2% 2%;
+  padding: 1em;
+}
+
+h2, h3 {
+  float: left;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  text-transform: uppercase;
+  margin: 0.2em auto;
+}
+
+.item, .price {
+  clear: left;
+  width: 100%;
+  text-align: center;
+}
+
+.price {
+  color: Grey;
+}
+
+.description, label, button, input {
+  float: left;
+  clear: left;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  text-align: center;
+  margin: 0.2em auto;
+}
+
+input:focus {
+  outline-color: #fdf;
+}
+
+label {
+  width: 60%;
+}
+
+.text-box input {
+  width: 15%;
+  clear: none;
+}
+
+.text-box button {
+  margin-top: 1em;
+}
+
+button {
+  padding: 2%;
+  background-color: #dfd;
+  border: none;
+  border-radius: 2%;
+}
+
+button:hover {
+  bottom: 0.1em;
+}
+
+button:focus {
+  outline: 0;
+}
+
+button:active {
+  bottom: 0;
+  background-color: #fdf;
+}
+
+.table-heading, .table-content {
+  width: 75%;
+  margin: 1% 12.25%;
+  float: left;
+  background-color: #dfd;
+}
+
+.table-heading h2 {
+  padding: 1%;
+  margin: 0;
+  text-align: center;
+}
+
+.cart-product {
+  width: 50%;
+  float: left;
+}
+
+.cart-price {
+  width: 15%;
+  float: left;
+}
+
+.cart-quantity {
+  width: 10%;
+  float: left;
+}
+
+.cart-total {
+  width: 25%;
+  float: left;
+}
+
+.cart-image-box {
+  width: 20%;
+  overflow: hidden;
+  border-radius: 2%;
+  float: left;
+  margin: 1%;
+}
+
+.cart-images {
+  height: 7em;
+  background-size: cover; 
+  background-position: center center; 
+  background-repeat: no-repeat;
+}
+
+.cart-item {
+  width: 20%;
+  float: left;
+  margin: 3.2em 1%;
+  text-align: center;
+}
+.cart-description {
+  width: 53%;
+  float: left;
+  margin: 3.2em 1%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  text-align: center;
+}
+
+.cart-price h3, .cart-total h3 {
+  margin: 3.2em 5% 3.2em 20%;
+  width: 60%;
+}
+
+.cart-quantity input {
+  margin: 3.2em 1%;
+  border: none;
+}
+
+.remove {
+  width: 10%;
+  margin: 1px;
+  float: right;
+  clear: right;
+}
+
+.coupon {
+  width: 20%;
+  background-color: #dfd;
+  margin: 1% 1% 1% 12.25%;
+  float: left;
+  height: 6em;
+}
+
+.coupon input {
+  width: 60%;
+  border: none;
+  margin: 12.75% 5%;
+  padding: 1%;
+}
+
+.coupon button {
+  width: 25%;
+  float: left;
+  clear: right;
+  margin: 12% 5% 12% 0;
+}
+
+.keep-shopping {
+  width: 15%;
+  height: 6em;
+  float: left;
+  margin: 1% auto;
+  padding: 1%;
+  background-color: #dfd;
+}
+
+.keep-shopping button {
+  text-transform: uppercase;
+  margin: 12% auto;
+  
+}
+
+.checkout {
+  width: 37.25%;
+  margin: 1% 12.75% 1% 1%;
+  float: right;
+  background-color: #dfd;
+  height: 6em;
+}
+
+.checkout button {
+  width: 30%;
+  clear: none;
+  margin: 5.4% 0 5.4% 5.5%;
+  text-transform: uppercase;
+}
+
+.final-cart-total {
+  width: 15%;
+  float: right;
+  margin: 7%;
+  background-color: White;
+}
+
+.final-cart-total h3 {
+  color: Black;
+}  
+
+
+/* CSS code for the support page */
+
